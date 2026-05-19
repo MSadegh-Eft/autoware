@@ -20,7 +20,7 @@ had some performance issues, the car would engage emergency and break, and would
 fixed by lowering the time scale.
 
 
-# Launching Commands
+# Launch Commands
 
 ## Terminal 1 — Start AWSIM
 ```bash
@@ -52,3 +52,19 @@ autoware_vehicle_msgs/msg/Engage \
 '{engage: true}' -1
 ```
 That command tells Autoware to start autonomous driving inside AWSIM.
+
+
+# Common Config Files
+
+## Changing Speed Limit
+```bash
+/home/msadegh/autoware/src/launcher/autoware_launch/autoware_launch/config/planning/scenario_planning/common/common.param.yaml
+```
+
+## Car Dimensions Information
+```bash
+/home/msadegh/autoware/src/vehicle/awsim_labs_vehicle_launch/awsim_labs_vehicle_description/config/vehicle_info.param.yaml
+```
+
+
+# Common Commands

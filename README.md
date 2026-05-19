@@ -2,7 +2,7 @@
 
 1. GPU Name: NVIDIA GeForce RTX 2070 max-q
 2. Vram: 8192 MiB (8 GBs)
-3. ram: 16130600 kB (16 GBs)
+3. ram: 16 GBs
 4. OS: Ubuntu 22.04.5 LTS (Jammy)
 5. ROS 2: Humble
 6. Driver Version: 580.82.07

@@ -18,3 +18,37 @@ had performance issues that, found the root and the solution in the following gi
 [Self-driving Fails or Frequently Enters EMERGENCY_STOP #207](https://github.com/autowarefoundation/AWSIM-Labs/issues/207)
 
 fixed by lowering the time scale.
+
+
+# Launching Commands
+
+## Terminal 1 — Start AWSIM
+```bash
+cd ~/AWSIM/awsim_labs_v1.6.1
+./awsim_labs.x86_64
+```
+Wait for the simulator window to fully load.
+
+## Terminal 2 — Start Autoware
+```bash
+cd ~/autoware
+source install/setup.bash
+
+ros2 launch autoware_launch e2e_simulator.launch.xml \
+vehicle_model:=awsim_labs_vehicle \
+sensor_model:=awsim_labs_sensor_kit \
+map_path:=/home/msadegh/autoware_map/nishishinjuku_autoware_map \
+launch_vehicle_interface:=true
+```
+Wait until all nodes finish starting.
+
+## Terminal 3 — Engage the vehicle
+```bash
+cd ~/autoware
+source install/setup.bash
+
+ros2 topic pub /autoware/engage \
+autoware_vehicle_msgs/msg/Engage \
+'{engage: true}' -1
+```
+That command tells Autoware to start autonomous driving inside AWSIM.

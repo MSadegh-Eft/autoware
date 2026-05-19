@@ -16,3 +16,5 @@
 had performance issues that, found the root and the solution in the following github issue.
 
 [Self-driving Fails or Frequently Enters EMERGENCY_STOP #207](https://github.com/autowarefoundation/AWSIM-Labs/issues/207)
+
+fixed by lowering the time scale.

@@ -10,3 +10,8 @@
 8. TensorRT: Version 10.8.0
 9. [Awsim_labs v1.6.1](https://github.com/autowarefoundation/AWSIM-Labs/releases/tag/v1.6.1)
 10. [Autoware 1.8.0](https://github.com/autowarefoundation/autoware/releases/tag/1.8.0)
+
+
+# Performance Issue
+had performance issues that, found the root and the solution in the following github issue.
+[Self-driving Fails or Frequently Enters EMERGENCY_STOP #207](https://github.com/autowarefoundation/AWSIM-Labs/issues/207)

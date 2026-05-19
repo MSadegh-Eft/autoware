@@ -13,7 +13,7 @@
 
 
 # Performance Issue
-had some performance issues, the car would engage emergency and break, and wouldnt let the car move, found the root and the solution in the following github issue.
+had some performance issues, the car would engage emergency and break, and wouldnt let the car move, found the root and the solution in the following Awsim lab github issue.
 
 [Self-driving Fails or Frequently Enters EMERGENCY_STOP #207](https://github.com/autowarefoundation/AWSIM-Labs/issues/207)
 

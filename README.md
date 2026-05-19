@@ -12,12 +12,14 @@
 10. [Autoware 1.8.0](https://github.com/autowarefoundation/autoware/releases/tag/1.8.0)
 
 
+
 # Performance Issue
 had some performance issues, the car would engage emergency and break, and wouldnt let the car move, found the root and the solution in the following Awsim lab github issue.
 
 [Self-driving Fails or Frequently Enters EMERGENCY_STOP #207](https://github.com/autowarefoundation/AWSIM-Labs/issues/207)
 
 fixed by lowering the time scale.
+
 
 
 # Launch Commands
@@ -52,6 +54,7 @@ autoware_vehicle_msgs/msg/Engage \
 '{engage: true}' -1
 ```
 That command tells Autoware to start autonomous driving inside AWSIM.
+
 
 
 # Common Config Files

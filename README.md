@@ -1,15 +1,16 @@
 # Personal Configuration Document
 
 1. GPU Name: NVIDIA GeForce RTX 2070 max-q
-2. Vram: 8192 MiB
-3. OS: Ubuntu 22.04.5 LTS (Jammy)
-4. ROS 2: Humble
-5. Driver Version: 580.82.07
-6. CUDA Version: 13.0
-7. cuDNN: Version 8.9.7
-8. TensorRT: Version 10.8.0
-9. [Awsim_labs v1.6.1](https://github.com/autowarefoundation/AWSIM-Labs/releases/tag/v1.6.1)
-10. [Autoware 1.8.0](https://github.com/autowarefoundation/autoware/releases/tag/1.8.0)
+2. Vram: 8192 MiB (8 GBs)
+3. ram: 16130600 kB (16 GBs)
+4. OS: Ubuntu 22.04.5 LTS (Jammy)
+5. ROS 2: Humble
+6. Driver Version: 580.82.07
+7. CUDA Version: 13.0
+8. cuDNN: Version 8.9.7
+9. TensorRT: Version 10.8.0
+10. [Awsim_labs v1.6.1](https://github.com/autowarefoundation/AWSIM-Labs/releases/tag/v1.6.1)
+11. [Autoware 1.8.0](https://github.com/autowarefoundation/autoware/releases/tag/1.8.0)
 
 
 

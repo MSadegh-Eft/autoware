@@ -42,7 +42,7 @@ launch_vehicle_interface:=true
 ```
 Wait until all nodes finish starting.
 
-## Terminal 3 — Engage the vehicle
+## Terminal 3 — Engage the vehicle (can also just press "Auto" in Autoware)
 ```bash
 cd ~/autoware
 source install/setup.bash

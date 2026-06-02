@@ -72,3 +72,8 @@ That command tells Autoware to start autonomous driving inside AWSIM.
 
 
 # Common Commands
+
+
+# What to keep vs replace
+
+<img width="1440" height="1240" alt="image" src="https://github.com/user-attachments/assets/db39c5f4-4722-4c6e-9428-f8a78e2743b4" />

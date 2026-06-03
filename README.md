@@ -1,5 +1,5 @@
 # Personal Configuration Document
-<br>
+
 1. GPU Name: NVIDIA GeForce RTX 2070 max-q
 2. Vram: 8192 MiB (8 GBs)
 3. ram: 16 GBs
@@ -12,7 +12,7 @@
 10. [Awsim_labs v1.6.1](https://github.com/autowarefoundation/AWSIM-Labs/releases/tag/v1.6.1)
 11. [Autoware 1.8.0](https://github.com/autowarefoundation/autoware/releases/tag/1.8.0)
 
-<br><br><br>
+<br><br>
 
 # Performance Issue
 had some performance issues, the car would engage emergency and break, and wouldnt let the car move, found the root and the solution in the following Awsim lab github issue.
@@ -21,18 +21,16 @@ had some performance issues, the car would engage emergency and break, and would
 
 fixed by lowering the time scale.
 
-<br><br><br>
+<br><br>
 
 # Launch Commands
-<br>
+
 ## Terminal 1 — Start AWSIM
 ```bash
 cd ~/AWSIM/awsim_labs_v1.6.1
 ./awsim_labs.x86_64
 ```
 Wait for the simulator window to fully load.
-
-<br>
 
 ## Terminal 2 — Start Autoware
 ```bash
@@ -47,8 +45,6 @@ launch_vehicle_interface:=true
 ```
 Wait until all nodes finish starting.
 
-<br>
-
 ## Terminal 3 — Engage the vehicle (can also just press "Auto" in Autoware)
 ```bash
 cd ~/autoware
@@ -60,16 +56,14 @@ autoware_vehicle_msgs/msg/Engage \
 ```
 That command tells Autoware to start autonomous driving inside AWSIM.
 
-<br><br><br>
+<br><br>
 
 # Common Config Files
-<br>
+
 ## Changing Speed Limit
 ```bash
 /home/msadegh/autoware/src/launcher/autoware_launch/autoware_launch/config/planning/scenario_planning/common/common.param.yaml
 ```
-
-<br>
 
 ## Car Dimensions Information
 ```bash

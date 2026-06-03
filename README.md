@@ -12,7 +12,7 @@
 10. [Awsim_labs v1.6.1](https://github.com/autowarefoundation/AWSIM-Labs/releases/tag/v1.6.1)
 11. [Autoware 1.8.0](https://github.com/autowarefoundation/autoware/releases/tag/1.8.0)
 
-
+<br><br>
 
 # Performance Issue
 had some performance issues, the car would engage emergency and break, and wouldnt let the car move, found the root and the solution in the following Awsim lab github issue.
@@ -21,7 +21,7 @@ had some performance issues, the car would engage emergency and break, and would
 
 fixed by lowering the time scale.
 
-
+<br><br>
 
 # Launch Commands
 
@@ -56,7 +56,7 @@ autoware_vehicle_msgs/msg/Engage \
 ```
 That command tells Autoware to start autonomous driving inside AWSIM.
 
-
+<br><br>
 
 # Common Config Files
 
@@ -70,8 +70,12 @@ That command tells Autoware to start autonomous driving inside AWSIM.
 /home/msadegh/autoware/src/vehicle/awsim_labs_vehicle_launch/awsim_labs_vehicle_description/config/vehicle_info.param.yaml
 ```
 
+<br><br>
 
 # Common Commands
+
+
+<br><br>
 
 
 # What to keep vs replace

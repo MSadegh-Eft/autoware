@@ -1,5 +1,5 @@
 # Personal Configuration Document
-
+<br>
 1. GPU Name: NVIDIA GeForce RTX 2070 max-q
 2. Vram: 8192 MiB (8 GBs)
 3. ram: 16 GBs
@@ -24,7 +24,7 @@ fixed by lowering the time scale.
 <br><br><br>
 
 # Launch Commands
-
+<br>
 ## Terminal 1 — Start AWSIM
 ```bash
 cd ~/AWSIM/awsim_labs_v1.6.1
@@ -63,7 +63,7 @@ That command tells Autoware to start autonomous driving inside AWSIM.
 <br><br><br>
 
 # Common Config Files
-
+<br>
 ## Changing Speed Limit
 ```bash
 /home/msadegh/autoware/src/launcher/autoware_launch/autoware_launch/config/planning/scenario_planning/common/common.param.yaml
@@ -85,7 +85,7 @@ That command tells Autoware to start autonomous driving inside AWSIM.
 
 
 # What to keep vs replace
-
+<br>
 ## [High-level architecture design](https://tier4.github.io/autoware-documentation/tier4-main/design/autoware-architecture/)
 
 <img width="867" height="509" alt="image" src="https://github.com/user-attachments/assets/3ac127d5-0b63-4dbd-a179-44fb726b3152" />

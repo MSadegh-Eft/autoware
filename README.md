@@ -79,7 +79,7 @@ That command tells Autoware to start autonomous driving inside AWSIM.
 
 
 # What to keep vs replace
-<br>
+
 ## [High-level architecture design](https://tier4.github.io/autoware-documentation/tier4-main/design/autoware-architecture/)
 
 <img width="867" height="509" alt="image" src="https://github.com/user-attachments/assets/3ac127d5-0b63-4dbd-a179-44fb726b3152" />

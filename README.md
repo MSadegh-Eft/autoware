@@ -76,9 +76,15 @@ That command tells Autoware to start autonomous driving inside AWSIM.
 
 # What to keep vs replace
 
+## [High-level architecture design](https://tier4.github.io/autoware-documentation/tier4-main/design/autoware-architecture/)
+
+<img width="867" height="509" alt="image" src="https://github.com/user-attachments/assets/3ac127d5-0b63-4dbd-a179-44fb726b3152" />
+
+
 ## HD-map-based setup
 
 <img width="1440" height="1240" alt="image" src="https://github.com/user-attachments/assets/db39c5f4-4722-4c6e-9428-f8a78e2743b4" />
+
 
 ## HD-map-free setup (ORION-style)
 

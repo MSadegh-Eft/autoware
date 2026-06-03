@@ -86,6 +86,12 @@ That command tells Autoware to start autonomous driving inside AWSIM.
 
 <br>
 
+## [Full Node diagram](https://tier4.github.io/pilot-auto-ros2-iv-archive/tree/main/design/software_architecture/NodeDiagram/)
+
+<img width="2971" height="1661" alt="image" src="https://github.com/user-attachments/assets/1156fc0c-194b-4c2a-82f0-8b23650f63a6" />
+
+<br>
+
 ## HD-map-based setup
 
 <img width="1440" height="1240" alt="image" src="https://github.com/user-attachments/assets/db39c5f4-4722-4c6e-9428-f8a78e2743b4" />
